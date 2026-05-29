@@ -1,7 +1,3 @@
-package Lv3;
-
-import java.util.*;
-
 public class P_150365 {
 
     int[] di = new int[]{1, 0, 0, -1};

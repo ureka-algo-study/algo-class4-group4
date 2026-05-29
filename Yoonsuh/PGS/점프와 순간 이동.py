@@ -1,4 +1,4 @@
-def solution(n):
+def solution(n): # 미완
     ans = 0
     while n > 0:
         if n % 2 == 1:
