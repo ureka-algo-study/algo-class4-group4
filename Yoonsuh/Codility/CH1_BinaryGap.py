@@ -11,11 +11,10 @@ def solution(N):
         if ch == "1":
             if sw:
                 maxv = max(maxv, cnt)
-                sw = False
-            else:
-                sw = True
+            sw = True
+            cnt = 0
         else:
             if sw:
                 cnt+=1
-
+                
     return maxv
