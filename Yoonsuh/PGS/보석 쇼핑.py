@@ -24,5 +24,4 @@ def solution(gems):
             end = i + 1                     # 현재 오른쪽 끝 위치 (1-indexed)
             if end - start < answer[1] - answer[0]:  # 더 짧은 구간이면 갱신
                 answer = [start, end]
-
     return answer
