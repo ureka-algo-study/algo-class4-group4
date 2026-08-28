@@ -1,9 +1,7 @@
-package Uhjin.CodeTree;
-
 import java.util.*;
 import java.io.*;
 
-public class 아기_고래의_첫_항해 {
+public class Main {
     public static int N, r, c, d;
     public static int[][] map;
     public static boolean[][] visited;
